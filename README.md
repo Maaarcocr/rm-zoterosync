@@ -11,9 +11,9 @@ You have to specify 2 environment variables before running it on your reMarkable
 
 ## Some weird decisions I made
 
-The go code will only sync your zotero collections for which a folder in your remarkable exists with the exact same name. 
-All the files that are downloaded from Zotero are saved in `My Files` and not inside any folder, this is due to the fact that I can't specify the folder I want to use when using the upload API provided by the WebUI.
-All the files that you want to sync should have a public URL present in their Zotero metadata. (This could be modified if this utility downloaded the files directly from Zotero, but it was not neccessary for me)
+- The go code will only sync your zotero collections for which a folder in your remarkable exists with the exact same name. 
+- All the files that are downloaded from Zotero are saved in `My Files` and not inside any folder, this is due to the fact that I can't specify the folder I want to use when using the upload API provided by the WebUI.
+- All the files that you want to sync should have a public URL present in their Zotero metadata. (This could be modified if this utility downloaded the files directly from Zotero, but it was not neccessary for me)
 
 ## Compile from source
 
