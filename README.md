@@ -9,7 +9,7 @@ Download the executable from [here](https://github.com/Maaarcocr/rm-zoterosync/r
 
 You have to specify 2 environment variables before running it on your reMarkable: `ZOTERO_USERID` (which is not your username and you can find it at [here](https://www.zotero.org/settings/keys)) and `ZOTERO_APIKEY`.
 
-## Some weird decisions I made
+## Some weird decisions I took
 
 - The go code will only sync your zotero collections for which a folder in your remarkable exists with the exact same name. 
 - All the files that are downloaded from Zotero are saved in `My Files` and not inside any folder, this is due to the fact that I can't specify the folder I want to use when using the upload API provided by the WebUI.
