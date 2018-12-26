@@ -5,7 +5,7 @@ This is possible because you can ssh into a reMarkable and run any executable th
 
 ## How to run it on your reMarkable
 
-Download the executable from [here](https://github.com/Maaarcocr/rm-zoterosync/releases/download/0.1/rm-zoterosync). Copy it on your reMarkable using `scp` and run it with `rm-zoterosync &` so that it executes in the backgroud.  
+Download the executable from [here](https://github.com/Maaarcocr/rm-zoterosync/releases/download/0.1.2/rm-zoterosync). Copy it on your reMarkable using `scp` and run it with `rm-zoterosync &` so that it executes in the backgroud.  
 
 You have to specify 2 environment variables before running it on your reMarkable: `ZOTERO_USERID` (which is not your username and you can find it at [here](https://www.zotero.org/settings/keys)) and `ZOTERO_APIKEY`.
 
